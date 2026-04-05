@@ -1,0 +1,16 @@
+{
+  "method": "Isotonic Regression (5-Fold CV)",
+  "brier_before": 0.2767259180545807,
+  "brier_after": 0.20145583152770996,
+  "brier_improvement": 0.07527008652687073,
+  "auc_before": 0.6901344269765323,
+  "auc_after": 0.6663818637502849,
+  "mean_prob_pcr_neg_before": 0.5747905373573303,
+  "mean_prob_pcr_neg_after": 0.27933019399642944,
+  "mean_prob_pcr_pos_before": 0.5912773013114929,
+  "mean_prob_pcr_pos_after": 0.408586710691452,
+  "separation_before": 0.016486763954162598,
+  "separation_after": 0.12925651669502258,
+  "is_well_calibrated": true,
+  "n_patients": 199
+}

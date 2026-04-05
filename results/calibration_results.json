@@ -1,0 +1,20 @@
+{
+  "brier_score": 0.2767259180545807,
+  "is_well_calibrated": false,
+  "mean_prob_pcr_neg": 0.5747904777526855,
+  "mean_prob_pcr_pos": 0.5912772417068481,
+  "probability_separation": 0.016486763954162598,
+  "calibration_curve": {
+    "predicted_probs": [
+      0.5733569122496105,
+      0.6176607493431338
+    ],
+    "true_fractions": [
+      0.2916666666666667,
+      0.5483870967741935
+    ]
+  },
+  "n_patients": 199,
+  "n_pcr_positive": 66,
+  "n_pcr_negative": 133
+}
