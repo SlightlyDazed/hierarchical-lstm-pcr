@@ -2,6 +2,7 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![ROCm](https://img.shields.io/badge/ROCm-compatible-ED1C24.svg)](https://rocm.docs.amd.com/)
 
 > **A hierarchical LSTM architecture for predicting pathological complete response (pCR) in breast cancer using longitudinal DCE-MRI**
 
@@ -111,7 +112,7 @@ hierarchical-lstm-pcr/
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hierarchical-lstm-pcr.git
+git clone https://github.com/SlightlyDazed/hierarchical-lstm-pcr.git
 cd hierarchical-lstm-pcr
 pip install -r requirements.txt
 ```
@@ -217,6 +218,20 @@ Input: Patient with 4 timepoints × 6 phases × 1143 features
   year={2025}
 }
 ```
+
+---
+
+## 💻 AMD ROCm Compatibility
+
+Developed and tested on **AMD Radeon RX 9070** with **ROCm 6.x**.
+
+Install PyTorch with ROCm support:
+
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/rocm6.2
+```
+
+Compatible with any AMD GPU supported by ROCm 5.x+.
 
 ---
 
