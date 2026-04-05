@@ -1,0 +1,11 @@
+patient_id,age_group,hr_status,her2_status,subtype,true_label,pcr_display
+patient_001,middle,HR-,HER2-,TNBC,1,pCR+
+patient_002,middle,HR+,HER2-,HR+/HER2-,1,pCR+
+patient_003,young,HR+,HER2+,HR+/HER2+,1,pCR+
+patient_004,middle,HR-,HER2+,HR-/HER2+,1,pCR+
+patient_005,young,HR-,HER2-,TNBC,1,pCR+
+patient_006,middle,HR-,HER2-,TNBC,0,pCR-
+patient_007,middle,HR+,HER2-,HR+/HER2-,0,pCR-
+patient_008,middle,HR+,HER2+,HR+/HER2+,0,pCR-
+patient_009,middle,HR-,HER2+,HR-/HER2+,0,pCR-
+patient_010,middle,HR+,HER2-,HR+/HER2-,0,pCR-
